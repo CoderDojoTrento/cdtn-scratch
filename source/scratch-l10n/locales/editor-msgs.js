@@ -60550,6 +60550,7 @@ export default {
     "gui.menuBar.burnFirmware_e":"燒錄ESP",
     "gui.menuBar.burnFirmware_m":"燒錄Microbit",
     "gui.extension.linenotify.description":"Line通知，傳送訊息",
+        "gui.extension.telegrambot.description":"Telegram bot通知，傳送訊息",
     "gui.extension.microbitMore.description":"玩轉 micro:bit 的所有功能。(v2-0.2.4)",
     "gui.extension.microbit.connectingMessage":"連線",
     "gui.extension.chart.description":"使用 Chart.js 函式庫製作圖表，透過資料視覺化來檢視資料",
@@ -60579,5 +60580,10 @@ export default {
     "gui.extension.dataMining.description":"挖掘大量資料進行知識探索，並使用分析模型來評估與預測",
     "gui.menuBar.farmware":"韌體",
     "gui.extension.gemini.description":"使用 Google Gemini 的人工智慧模型進行自然語言處理任務",
+    "gui.extension.davinci.description":"使用聯發科技達哥DaVinci AI的人工智慧模型進行自然語言處理任務",
+    "gui.extension.davinci.title":"達哥DaVinci AI",
+    "gui.extension.llmstudio.description":"使用LLM Studio AI的人工智慧模型進行自然語言處理任務",
+    "gui.extension.llmstudio.title":"LLM Studio AI",
+    
   }
 };
