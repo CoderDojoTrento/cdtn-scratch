@@ -81,6 +81,11 @@ import rwGoogleInsetIconURL from "./rwgoogle/clound-small.png";
 import webserialArduinoImage from "./webserialArduino/webserialArduino.png";
 import webserialArduinoInsetIconURL from "./webserialArduino/webserialArduino-small.png";
 
+import cdtnKidsuinoImage from "./cdtnKidsuino/cdtnKidsuino.png";
+import cdtnKidsuinoInsetIconURL from "./cdtnKidsuino/cdtnKidsuino-small.png";
+
+
+
 import webserialEsp8266Image from "./webserialEsp8266/webserialEsp.png";
 import webserialEsp8266InsetIconURL from "./webserialEsp8266/webserialEsp-small.png";
 
@@ -816,6 +821,26 @@ const extensions = [
     bluetoothRequired: false,
     helpLink: "https://sites.google.com/view/scratch-web-serial-api/",
   },
+  {
+    name: "CoderDojo Trento Kidsuino",
+    extensionId: "cdtnKidsuino",
+    collaborator: "CoderDojo Trento, estea chen",
+
+    iconURL: cdtnKidsuinoImage,
+    insetIconURL: cdtnKidsuinoInsetIconURL,
+    description: (
+      <FormattedMessage
+        defaultMessage="Connect Arudino and Google Chrome using Web Serial API."
+        description="Web serial for the Arduino extension"
+        id="gui.extension.cdtnKidsuino.description"
+      />
+    ),
+    featured: true,
+    disabled: false,
+    internetConnectionRequired: false,
+    bluetoothRequired: false,
+    helpLink: "https://sites.google.com/view/scratch-web-serial-api/",
+  },  
   {
     name: "Web Serial ESP-8266",
     extensionId: "webserialEsp",
